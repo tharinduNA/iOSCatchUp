@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		680E92B021D153B3009F2165 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680E92AF21D153B3009F2165 /* CustomCell.swift */; };
+		6819CBBA21D35CDC00ABCE5A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6819CBB921D35CDC00ABCE5A /* Alamofire.framework */; };
+		6819CBBC21D35CE000ABCE5A /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6819CBBB21D35CE000ABCE5A /* AlamofireImage.framework */; };
 		6822A07C21D0FC1C0092005C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A07B21D0FC1C0092005C /* AppDelegate.swift */; };
 		6822A07E21D0FC1C0092005C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A07D21D0FC1C0092005C /* ViewController.swift */; };
 		6822A08121D0FC1C0092005C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6822A07F21D0FC1C0092005C /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		1024F46B434E7B7A4E02C318 /* Pods-iOSCatchUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCatchUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSCatchUp/Pods-iOSCatchUp.release.xcconfig"; sourceTree = "<group>"; };
 		34F8B8762D31FC71152A419F /* Pods-iOSCatchUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCatchUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSCatchUp/Pods-iOSCatchUp.debug.xcconfig"; sourceTree = "<group>"; };
 		680E92AF21D153B3009F2165 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6819CBB921D35CDC00ABCE5A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/iOSCatchUp-dvohuwxqndvptydgyxdxsryksoog/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		6819CBBB21D35CE000ABCE5A /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../Library/Developer/Xcode/DerivedData/iOSCatchUp-dvohuwxqndvptydgyxdxsryksoog/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
 		6822A07821D0FC1C0092005C /* iOSCatchUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCatchUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6822A07B21D0FC1C0092005C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6822A07D21D0FC1C0092005C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6819CBBC21D35CE000ABCE5A /* AlamofireImage.framework in Frameworks */,
+				6819CBBA21D35CDC00ABCE5A /* Alamofire.framework in Frameworks */,
 				983F8BE1E330F8770AA02460 /* Pods_iOSCatchUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +101,8 @@
 		50C4F4329EE1D87D7D0D6B6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6819CBBB21D35CE000ABCE5A /* AlamofireImage.framework */,
+				6819CBB921D35CDC00ABCE5A /* Alamofire.framework */,
 				E5BEC949258D301541EBC6BE /* Pods_iOSCatchUp.framework */,
 			);
 			name = Frameworks;
