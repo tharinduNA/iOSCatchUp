@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680E92B021D153B3009F2165 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680E92AF21D153B3009F2165 /* CustomCell.swift */; };
+		6822A07C21D0FC1C0092005C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A07B21D0FC1C0092005C /* AppDelegate.swift */; };
+		6822A07E21D0FC1C0092005C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A07D21D0FC1C0092005C /* ViewController.swift */; };
+		6822A08121D0FC1C0092005C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6822A07F21D0FC1C0092005C /* Main.storyboard */; };
+		6822A08321D0FC1C0092005C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6822A08221D0FC1C0092005C /* Assets.xcassets */; };
+		6822A08621D0FC1C0092005C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6822A08421D0FC1C0092005C /* LaunchScreen.storyboard */; };
+		6822A09121D0FC1C0092005C /* iOSCatchUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A09021D0FC1C0092005C /* iOSCatchUpTests.swift */; };
+		6822A09C21D0FC1C0092005C /* iOSCatchUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A09B21D0FC1C0092005C /* iOSCatchUpUITests.swift */; };
+		6824DFF721D3319F003D7EB6 /* NewsFeedDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6824DFF621D3319F003D7EB6 /* NewsFeedDownloader.swift */; };
+		983F8BE1E330F8770AA02460 /* Pods_iOSCatchUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BEC949258D301541EBC6BE /* Pods_iOSCatchUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6822A08D21D0FC1C0092005C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6822A07021D0FC1C0092005C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6822A07721D0FC1C0092005C;
+			remoteInfo = iOSCatchUp;
+		};
+		6822A09821D0FC1C0092005C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6822A07021D0FC1C0092005C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6822A07721D0FC1C0092005C;
+			remoteInfo = iOSCatchUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1024F46B434E7B7A4E02C318 /* Pods-iOSCatchUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCatchUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSCatchUp/Pods-iOSCatchUp.release.xcconfig"; sourceTree = "<group>"; };
+		34F8B8762D31FC71152A419F /* Pods-iOSCatchUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCatchUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSCatchUp/Pods-iOSCatchUp.debug.xcconfig"; sourceTree = "<group>"; };
+		680E92AF21D153B3009F2165 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6822A07821D0FC1C0092005C /* iOSCatchUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCatchUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6822A07B21D0FC1C0092005C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6822A07D21D0FC1C0092005C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6822A08021D0FC1C0092005C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6822A08221D0FC1C0092005C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6822A08521D0FC1C0092005C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6822A08721D0FC1C0092005C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6822A08C21D0FC1C0092005C /* iOSCatchUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCatchUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6822A09021D0FC1C0092005C /* iOSCatchUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCatchUpTests.swift; sourceTree = "<group>"; };
+		6822A09221D0FC1C0092005C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6822A09721D0FC1C0092005C /* iOSCatchUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCatchUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6822A09B21D0FC1C0092005C /* iOSCatchUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCatchUpUITests.swift; sourceTree = "<group>"; };
+		6822A09D21D0FC1C0092005C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6824DFF621D3319F003D7EB6 /* NewsFeedDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedDownloader.swift; sourceTree = "<group>"; };
+		E5BEC949258D301541EBC6BE /* Pods_iOSCatchUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSCatchUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6822A07521D0FC1C0092005C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983F8BE1E330F8770AA02460 /* Pods_iOSCatchUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822A08921D0FC1C0092005C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822A09421D0FC1C0092005C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD15CF946469B44AAEE15CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34F8B8762D31FC71152A419F /* Pods-iOSCatchUp.debug.xcconfig */,
+				1024F46B434E7B7A4E02C318 /* Pods-iOSCatchUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50C4F4329EE1D87D7D0D6B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5BEC949258D301541EBC6BE /* Pods_iOSCatchUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		680E92B221D15428009F2165 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6822A07D21D0FC1C0092005C /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		680E92B321D15439009F2165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				680E92AF21D153B3009F2165 /* CustomCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6822A06F21D0FC1C0092005C = {
+			isa = PBXGroup;
+			children = (
+				6822A07A21D0FC1C0092005C /* iOSCatchUp */,
+				6822A08F21D0FC1C0092005C /* iOSCatchUpTests */,
+				6822A09A21D0FC1C0092005C /* iOSCatchUpUITests */,
+				6822A07921D0FC1C0092005C /* Products */,
+				0AD15CF946469B44AAEE15CC /* Pods */,
+				50C4F4329EE1D87D7D0D6B6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6822A07921D0FC1C0092005C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6822A07821D0FC1C0092005C /* iOSCatchUp.app */,
+				6822A08C21D0FC1C0092005C /* iOSCatchUpTests.xctest */,
+				6822A09721D0FC1C0092005C /* iOSCatchUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6822A07A21D0FC1C0092005C /* iOSCatchUp */ = {
+			isa = PBXGroup;
+			children = (
+				6824DFF521D3315E003D7EB6 /* Network */,
+				680E92B321D15439009F2165 /* Model */,
+				680E92B221D15428009F2165 /* Controller */,
+				6822A07B21D0FC1C0092005C /* AppDelegate.swift */,
+				6822A07F21D0FC1C0092005C /* Main.storyboard */,
+				6822A08221D0FC1C0092005C /* Assets.xcassets */,
+				6822A08421D0FC1C0092005C /* LaunchScreen.storyboard */,
+				6822A08721D0FC1C0092005C /* Info.plist */,
+			);
+			path = iOSCatchUp;
+			sourceTree = "<group>";
+		};
+		6822A08F21D0FC1C0092005C /* iOSCatchUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				6822A09021D0FC1C0092005C /* iOSCatchUpTests.swift */,
+				6822A09221D0FC1C0092005C /* Info.plist */,
+			);
+			path = iOSCatchUpTests;
+			sourceTree = "<group>";
+		};
+		6822A09A21D0FC1C0092005C /* iOSCatchUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6822A09B21D0FC1C0092005C /* iOSCatchUpUITests.swift */,
+				6822A09D21D0FC1C0092005C /* Info.plist */,
+			);
+			path = iOSCatchUpUITests;
+			sourceTree = "<group>";
+		};
+		6824DFF521D3315E003D7EB6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6824DFF621D3319F003D7EB6 /* NewsFeedDownloader.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6822A07721D0FC1C0092005C /* iOSCatchUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6822A0A021D0FC1C0092005C /* Build configuration list for PBXNativeTarget "iOSCatchUp" */;
+			buildPhases = (
+				A53A6BCEB40BAC1CB45A0F33 /* [CP] Check Pods Manifest.lock */,
+				6822A07421D0FC1C0092005C /* Sources */,
+				6822A07521D0FC1C0092005C /* Frameworks */,
+				6822A07621D0FC1C0092005C /* Resources */,
+				B7C7450ED693FA69C1BF3D7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSCatchUp;
+			productName = iOSCatchUp;
+			productReference = 6822A07821D0FC1C0092005C /* iOSCatchUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6822A08B21D0FC1C0092005C /* iOSCatchUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6822A0A321D0FC1C0092005C /* Build configuration list for PBXNativeTarget "iOSCatchUpTests" */;
+			buildPhases = (
+				6822A08821D0FC1C0092005C /* Sources */,
+				6822A08921D0FC1C0092005C /* Frameworks */,
+				6822A08A21D0FC1C0092005C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6822A08E21D0FC1C0092005C /* PBXTargetDependency */,
+			);
+			name = iOSCatchUpTests;
+			productName = iOSCatchUpTests;
+			productReference = 6822A08C21D0FC1C0092005C /* iOSCatchUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6822A09621D0FC1C0092005C /* iOSCatchUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6822A0A621D0FC1C0092005C /* Build configuration list for PBXNativeTarget "iOSCatchUpUITests" */;
+			buildPhases = (
+				6822A09321D0FC1C0092005C /* Sources */,
+				6822A09421D0FC1C0092005C /* Frameworks */,
+				6822A09521D0FC1C0092005C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6822A09921D0FC1C0092005C /* PBXTargetDependency */,
+			);
+			name = iOSCatchUpUITests;
+			productName = iOSCatchUpUITests;
+			productReference = 6822A09721D0FC1C0092005C /* iOSCatchUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6822A07021D0FC1C0092005C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tharindu;
+				TargetAttributes = {
+					6822A07721D0FC1C0092005C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6822A08B21D0FC1C0092005C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6822A07721D0FC1C0092005C;
+					};
+					6822A09621D0FC1C0092005C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6822A07721D0FC1C0092005C;
+					};
+				};
+			};
+			buildConfigurationList = 6822A07321D0FC1C0092005C /* Build configuration list for PBXProject "iOSCatchUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6822A06F21D0FC1C0092005C;
+			productRefGroup = 6822A07921D0FC1C0092005C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6822A07721D0FC1C0092005C /* iOSCatchUp */,
+				6822A08B21D0FC1C0092005C /* iOSCatchUpTests */,
+				6822A09621D0FC1C0092005C /* iOSCatchUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6822A07621D0FC1C0092005C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6822A08621D0FC1C0092005C /* LaunchScreen.storyboard in Resources */,
+				6822A08321D0FC1C0092005C /* Assets.xcassets in Resources */,
+				6822A08121D0FC1C0092005C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822A08A21D0FC1C0092005C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822A09521D0FC1C0092005C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A53A6BCEB40BAC1CB45A0F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSCatchUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C7450ED693FA69C1BF3D7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSCatchUp/Pods-iOSCatchUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSCatchUp/Pods-iOSCatchUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6822A07421D0FC1C0092005C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6822A07E21D0FC1C0092005C /* ViewController.swift in Sources */,
+				680E92B021D153B3009F2165 /* CustomCell.swift in Sources */,
+				6822A07C21D0FC1C0092005C /* AppDelegate.swift in Sources */,
+				6824DFF721D3319F003D7EB6 /* NewsFeedDownloader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822A08821D0FC1C0092005C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6822A09121D0FC1C0092005C /* iOSCatchUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822A09321D0FC1C0092005C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6822A09C21D0FC1C0092005C /* iOSCatchUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6822A08E21D0FC1C0092005C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6822A07721D0FC1C0092005C /* iOSCatchUp */;
+			targetProxy = 6822A08D21D0FC1C0092005C /* PBXContainerItemProxy */;
+		};
+		6822A09921D0FC1C0092005C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6822A07721D0FC1C0092005C /* iOSCatchUp */;
+			targetProxy = 6822A09821D0FC1C0092005C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6822A07F21D0FC1C0092005C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6822A08021D0FC1C0092005C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6822A08421D0FC1C0092005C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6822A08521D0FC1C0092005C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6822A09E21D0FC1C0092005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6822A09F21D0FC1C0092005C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6822A0A121D0FC1C0092005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F8B8762D31FC71152A419F /* Pods-iOSCatchUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSCatchUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/iOSCatchUp/Utils";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.iOSCatchUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6822A0A221D0FC1C0092005C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1024F46B434E7B7A4E02C318 /* Pods-iOSCatchUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSCatchUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/iOSCatchUp/Utils";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.iOSCatchUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6822A0A421D0FC1C0092005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSCatchUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.iOSCatchUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSCatchUp.app/iOSCatchUp";
+			};
+			name = Debug;
+		};
+		6822A0A521D0FC1C0092005C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSCatchUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.iOSCatchUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSCatchUp.app/iOSCatchUp";
+			};
+			name = Release;
+		};
+		6822A0A721D0FC1C0092005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iOSCatchUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.iOSCatchUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSCatchUp;
+			};
+			name = Debug;
+		};
+		6822A0A821D0FC1C0092005C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iOSCatchUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.iOSCatchUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSCatchUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6822A07321D0FC1C0092005C /* Build configuration list for PBXProject "iOSCatchUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6822A09E21D0FC1C0092005C /* Debug */,
+				6822A09F21D0FC1C0092005C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6822A0A021D0FC1C0092005C /* Build configuration list for PBXNativeTarget "iOSCatchUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6822A0A121D0FC1C0092005C /* Debug */,
+				6822A0A221D0FC1C0092005C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6822A0A321D0FC1C0092005C /* Build configuration list for PBXNativeTarget "iOSCatchUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6822A0A421D0FC1C0092005C /* Debug */,
+				6822A0A521D0FC1C0092005C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6822A0A621D0FC1C0092005C /* Build configuration list for PBXNativeTarget "iOSCatchUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6822A0A721D0FC1C0092005C /* Debug */,
+				6822A0A821D0FC1C0092005C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6822A07021D0FC1C0092005C /* Project object */;
+}
